@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.leadershipboard.MainActivity">
+    tools:context=".ui.leaderdashboard.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -25,7 +25,8 @@
                 android:textColor="@android:color/black"
                 app:layout_constraintBottom_toBottomOf="@+id/title"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/title" />
+                app:layout_constraintTop_toTopOf="@+id/title"
+                android:layout_marginRight="16dp" />
 
             <TextView
                 android:id="@+id/title"
@@ -39,7 +40,8 @@
                 android:textAllCaps="true"
                 android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="16dp" />
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabs"
@@ -50,7 +52,21 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/title"
                 app:tabIndicatorColor="@android:color/white"
-                app:tabIndicatorHeight="5dp" />
+                app:tabTextColor="@android:color/white"
+                app:tabIndicatorHeight="5dp"/>
+<!--            >-->
+
+<!--                <com.google.android.material.tabs.TabItem-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/tab_learner"-->
+<!--                    />-->
+<!--                <com.google.android.material.tabs.TabItem-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/tab_skills"-->
+<!--                    />-->
+<!--            </com.google.android.material.tabs.TabLayout>-->
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 

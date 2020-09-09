@@ -4,12 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <import type="android.view.View" />
 
         <variable
             name="viewModel"
-            type="com.noha.gadsleaderboard.ui.submit.SubmitViewModel" />
+            type="com.mustafayosri.gadsleaderboard.ui.submit.SubmitViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -106,7 +105,8 @@
                         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="@+id/imageView3"
-                        app:srcCompat="@drawable/ic_backspace_24" />
+                        app:srcCompat="@drawable/ic_backspace_24"
+                        android:layout_marginLeft="32dp" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -161,7 +161,8 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
             app:layout_constraintStart_toEndOf="@+id/firstNameEditText"
-            app:layout_constraintTop_toTopOf="@+id/firstNameEditText" />
+            app:layout_constraintTop_toTopOf="@+id/firstNameEditText"
+            android:layout_marginRight="16dp" />
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"

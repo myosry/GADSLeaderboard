@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.mustafayosri.gadsleaderboard.MainActivity
+import com.mustafayosri.gadsleaderboard.ui.leaderdashboard.MainActivity
 import com.mustafayosri.gadsleaderboard.R
 
-class SplashActivity : AppCompatActivity() {
+class SplashScreenActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

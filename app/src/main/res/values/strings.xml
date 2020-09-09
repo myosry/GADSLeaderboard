@@ -1,12 +1,10 @@
 <resources>
     <string name="app_name">GADS Leaderboard</string>
-    <string name="tab_text_1">Learning Leaders</string>
-    <string name="tab_text_2">Skill IQ Leaders</string>
+    <string name="tab_learner">Learning Leaders</string>
+    <string name="tab_skills">Skill IQ Leaders</string>
     <string name="badge">badge</string>
-    <string name="no_internet">No Internet Connection</string>
-    <string name="something_went_wrong">Something went wrong</string>
-    <string name="score">%d Skill IQ Score, %s</string>
-    <string name="hours">%d Learning hours, %s</string>
+    <string name="score">Skill IQ Score</string>
+    <string name="hours">Learning hours</string>
     <string name="submit">Submit</string>
     <string name="project_submission">Project Submission</string>
     <string name="first_name">First Name</string>
@@ -23,6 +21,7 @@
     <string name="close">close</string>
     <string name="submission_successful">Submission Successful</string>
     <string name="submission_not_successful">Submission not Successful</string>
-    <string name="retry">Retry</string>
     <string name="splash_photo">Splash_photo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>
