@@ -1,3 +1,6 @@
+![Alt text](https://github.com/myosry/GADSLeaderboard/blob/master/693b8f23-e1b5-4213-b163-08d15ecabe87.png "Optional title")
+
+
 # <P>Description</P>
 This project is a very simple Android Project aimed at getting you to implement some simple concepts that are very important as far as Android Development is concerned.
 
